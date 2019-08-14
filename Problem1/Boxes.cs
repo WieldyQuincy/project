@@ -1,6 +1,5 @@
 using System;
 
-
 namespace Problem1
 {
   class Box

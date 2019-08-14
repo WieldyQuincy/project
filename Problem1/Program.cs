@@ -37,10 +37,6 @@ namespace Problem1
           }
         }
       }
-
-
-
-
     }
   }
 }

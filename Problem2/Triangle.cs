@@ -21,18 +21,15 @@ namespace Problem2
       double a = s * (s - SideA) * (s - SideB) * (s - SideC);
       double area = Math.Sqrt(a);
 
-      //   Console.WriteLine(double.IsNaN(area));
-
       return Math.Round(area, 4);
-
     }
+
     public bool IsEquilateral()
     {
       if (SideA == SideB && SideA == SideC)
       {
         return true;
       }
-
       return false;
     }
 
@@ -42,7 +39,6 @@ namespace Problem2
       {
         return true;
       }
-
       return false;
     }
 
@@ -52,7 +48,6 @@ namespace Problem2
       {
         return true;
       }
-
       return false;
     }
 
@@ -62,7 +57,6 @@ namespace Problem2
       {
         return true;
       }
-
       return false;
     }
 

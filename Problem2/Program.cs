@@ -38,7 +38,6 @@ namespace Problem2
           }
         }
       }
-
     }
 
     static void PrintTriangleSummary(Triangle a)
